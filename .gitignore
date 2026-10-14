@@ -1,0 +1,29 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+
+# Private operational data
+reports/
+exports/
+*.xlsx
+*.csv
+*.pdf
+!docs/samples/*.pdf
+
+.DS_Store
+npm-debug.log*
+coverage/
+/tmp/
+next-env.d.ts
+.vercel
